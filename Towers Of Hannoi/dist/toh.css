@@ -1,0 +1,49 @@
+h1 {
+  font-size: 75px;
+  margin: 10px;
+}
+
+ul {
+   display: flex;
+   flex-direction: column;
+   list-style-type: none;
+   border-bottom: 8px solid grey; 
+   width: 125px;
+   margin-top: 200px;
+}
+
+ul:hover {
+  border-bottom: 8px solid yellow; 
+}
+
+.hanoi {
+  display: flex;
+  
+  width: 500px;
+  justify-content: space-around;
+}
+
+.one {
+  background-color: green;
+  width: 50px;
+  height: 20px;
+  margin: 0 auto;
+  list-style-type: none;
+  border-radius: 10px; 
+}
+
+.two {
+  background-color: red;
+  width: 75px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 10px; 
+}
+
+.three {
+  background-color: blue;
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 10px; 
+}

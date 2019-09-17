@@ -1,0 +1,36 @@
+ul > li {
+  border: 2px solid black; 
+  width: 146px; 
+  height: 146px; 
+  background-color: lightgray; 
+  /* color: red; */
+  font-size: 100px;
+  text-align: center;
+}
+
+ul {
+  display: flex; 
+  width: 450px; 
+  height: 450px; 
+  flex-wrap: wrap; 
+  list-style-type: none; 
+}
+
+ul > li:hover {
+  background-color: yellow; 
+  cursor: pointer;
+}
+
+.x {
+  color: red;
+  background-color: white;
+}
+
+.o {
+  color: blue;
+  background-color: white;
+}
+
+body > h2 {
+  font-size: 200px; 
+}
